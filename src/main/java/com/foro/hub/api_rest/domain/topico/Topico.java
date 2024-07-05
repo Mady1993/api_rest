@@ -15,7 +15,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-
 public class Topico {
 
     @Id
@@ -24,13 +23,9 @@ public class Topico {
     private String titulo;
     private String mensaje;
     private String autor;
-
-
     @Enumerated(EnumType.STRING)
     private Curso curso;
-
     private Boolean sinRespuesta = true;
-
     @CreationTimestamp
     private LocalDateTime fechaCreacion;
 
@@ -55,8 +50,5 @@ public class Topico {
         if (datosActualizarTopico.curso() != null) {
             this.curso = datosActualizarTopico.curso();
         }
-
     }
-
-
 }

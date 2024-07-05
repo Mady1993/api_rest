@@ -5,16 +5,16 @@ import jakarta.validation.constraints.NotNull;
 
 public record DatosRegistroTopico(
 
-        @NotBlank(message = "El titulo no puede estar vacío")
+        @NotBlank(message = "No puede estar vacío")
         String titulo,
 
-        @NotBlank(message = "El mensaje puede estar vacio")
+        @NotBlank(message = "No puede estar vacio")
         String mensaje,
 
-        @NotBlank(message = "El autor no puede estar vacio")
+        @NotBlank(message = "No puede estar vacio")
         String autor,
 
-        @NotNull(message = "El curso no puede estar vacio")
+        @NotNull(message = "No puede estar vacio")
         Curso curso
 
 ) {
