@@ -39,7 +39,7 @@ Permite a los usuarios buscar tópicos específicos por diferentes criterios, fa
 - JPA (Java Persistence API)
 - Seguridad: Spring Security
 - Pruebas de API: Insomnia <br><a>https://insomnia.rest/</a><br>
-- Autenticación: JSON web token <br><a">https://jwt.io/</a><br>
+- Autenticación: JSON web token <br><a>https://jwt.io/</a><br>
 - Documentación: SpringDoc y Swagger UI
 - Formación: Alura Latam, curso: JAVA y SPRING BOOT 3 <a>https://www.aluracursos.com/</a><br>
 
